@@ -18,6 +18,10 @@
   <ItemGroup>
     <TypeScriptCompile Include="**\*.ts" />
   </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Remove="node_modules\**" />
+  </ItemGroup>
   
   <PropertyGroup>
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
